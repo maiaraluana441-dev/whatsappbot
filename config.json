@@ -1,0 +1,76 @@
+{
+  "prefix": "!",
+  "botName": "Admim Bot",
+  "version": "1.0.0",
+  "author": "Admim-bot - Tecnologia",
+  "adminCommands": [
+    "ban",
+    "promote", 
+    "demote",
+    "removeall",
+    "add",
+    "rename",
+    "desc",
+    "creatgrup"
+  ],
+  "dataDirectory": "./data/",
+  "sessionDirectory": "./session/",
+  "autoSave": {
+    "enabled": true,
+    "interval": 300000
+  },
+  "puppeteer": {
+    "headless": true,
+    "args": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-first-run",
+      "--no-zygote",
+      "--single-process",
+      "--disable-gpu"
+    ]
+  },
+  "defaultSettings": {
+    "welcome": {
+      "enabled": false,
+      "message": "Bem-vindo(a) ao grupo {user}! 👋",
+      "media": null
+    },
+    "welcomePv": {
+      "enabled": false,
+      "message": "Olá {user}! Bem-vindo(a) ao grupo {group}! 👋",
+      "media": null
+    },
+    "goodbye": {
+      "enabled": false,
+      "message": "Tchau {user}! 👋 Foi bom ter você no grupo.",
+      "media": null
+    },
+    "antilink": {
+      "enabled": false,
+      "ban": false
+    },
+    "antiwords": {
+      "enabled": false,
+      "ban": false,
+      "words": []
+    },
+    "chatbot": {
+      "enabled": false
+    }
+  },
+  "globalAntiwords": [
+    "puta",
+    "merda",
+    "caralho",
+    "porra",
+    "fdp",
+    "cu",
+    "buceta",
+    "piranha",
+    "vagabunda",
+    "desgraça"
+  ]
+}
