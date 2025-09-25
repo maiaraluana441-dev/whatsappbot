@@ -1,0 +1,29 @@
+{
+  "name": "whatsappbot",
+  "version": "1.0.0",
+  "description": "Bot completo para gerenciamento de grupos do WhatsApp",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.21.0",
+    "qrcode-terminal": "^0.12.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "node-cron": "^3.0.3",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "group-management",
+    "automation"
+  ],
+  "author": "maiaraluana441-dev",
+  "license": "MIT"
+}
